@@ -1,0 +1,65 @@
+header { 
+    font-size: 30px;
+    text-align: center;
+    margin: 15px auto;
+    height: 150px;
+    width: 80%;
+   
+}
+
+body{
+    background-image:url("../images/backgroundpinkcrystals.jpg")
+}
+
+.crystals{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.crystal{
+    border:5px solid;
+    height:100px;
+    width:100px;
+}
+
+#result {
+    height:50px;
+    width:200px;
+    border:5px solid;
+    margin:5px;
+}
+
+.winLoses {
+    height:100px;
+    width:200px;
+    border:5px solid;
+    margin:5px;
+}
+
+#previous {
+    height:50px;
+    width:200px;
+    border:5px solid;
+    margin:5px;
+}
+
+.guesses {
+    height:75;
+    width:75;
+}
+
+.CrystalCollector {
+    width: 200px;
+    padding: 10px;
+    border:5px solid;
+    margin:5px;
+}
+
+.instructions {
+    width:500px;
+    padding: 10px;
+    border:5px solid;
+    margin:5px;
+}
